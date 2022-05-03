@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="qorbaxk"/>
-    <meta name="keywords" content="어벤져스 mbti"/>
-    <meta name="description" content="내가 어벤져스라면?"/>
+    <meta name="author" content="qorbaxk" />
+    <meta name="keywords" content="어벤져스 mbti" />
+    <meta name="description" content="내가 어벤져스라면?" />
 
     <!--공유하기 -->
-    <meta property="og:url" content="https://avengers-heroes-test.netlify.app/" />
-    <meta property="og:title" content="내가 어벤져스라면?"/>
+    <meta
+      property="og:url"
+      content="https://avengers-heroes-test.netlify.app/"
+    />
+    <meta property="og:title" content="내가 어벤져스라면?" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="../img/main.gif"/>
-    <meta property="og:description" content="내가 어벤져스라면 어떤 캐릭터일까?"/>
+    <meta property="og:image" content="../img/main.gif" />
+    <meta
+      property="og:description"
+      content="내가 어벤져스라면 어떤 캐릭터일까?"
+    />
 
     <!--아이콘-->
-    <link rel="shortcut icon" href="../img/avengers.ico"/>
-    <link rel="apple-touch-icon-precomposed" href="../img/avengers.ico"/>
+    <link rel="shortcut icon" href="../img/avengers.ico" />
+    <link rel="apple-touch-icon-precomposed" href="../img/avengers.ico" />
 
     <title>내가 어벤져스라면?</title>
     <link
@@ -28,31 +34,48 @@
     />
     <link rel="stylesheet" href="../css/common.css" />
     <link rel="stylesheet" href="../css/default.css" />
-    <link rel="stylesheet" href="../css/result.css"/>
-</head>
-<body>
-    <section id="shareResult" class="mx-auto my-3 py-3 px-3">
+    <link rel="stylesheet" href="../css/result.css" />
+  </head>
+  <body>
+    <div class="container pb-3">
+      <section id="shareResult" class="mx-auto my-3 py-3 px-3">
         <h1 class="pt-3">당신의 캐릭터는?</h1>
         <div class="resultEx">
-            <p>불만 지피면 활활 타오르는 열정의 불꽃</p>
+          <p>불만 지피면 활활 타오르는 열정의 불꽃</p>
         </div>
         <div class="resultName">
-            <p>스칼렛위치</p>
+          <p>스칼렛위치</p>
         </div>
-        <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-          <img src="../img/image-5.png" alt="0" class="img-fluid">
+        <div
+          id="resultImg"
+          class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto"
+        >
+          <img src="../img/image-5.png" alt="0" class="img-fluid" />
         </div>
         <div class="resultDesc">
-            <p>
-                침착하고 내성적인 사람처럼 비춰지기도 하지만 알고보면 열정의 불꽃인 당신! 스칼렛위치에 해당하는 당신은 논리나 흥미가 아닌 나름 자신의 원리 원칙에 근거하여 사고하고 행동하는 스타일이에요. 누구하고든 깊게 어울리기가 힘들어하는 편이라 비전과 클린트를 제외하고는 마음을 다 열어주지 않았어요. 하지만 이런 내향적인 면모를 보이지만 내 가치관을 간섭하면 불꽃으로 타올라 세상 강한 마법사가 돼요. 망상에 빠져 살기 때문에 힘들어진 현실을 외면하고자 웨스트뷰를 만들어내기도 했답니다.
-            </p>
+          <p>
+            침착하고 내성적인 사람처럼 비춰지기도 하지만 알고보면 열정의 불꽃인
+            당신! 스칼렛위치에 해당하는 당신은 논리나 흥미가 아닌 나름 자신의
+            원리 원칙에 근거하여 사고하고 행동하는 스타일이에요. 누구하고든 깊게
+            어울리기가 힘들어하는 편이라 비전과 클린트를 제외하고는 마음을 다
+            열어주지 않았어요. 하지만 이런 내향적인 면모를 보이지만 내 가치관을
+            간섭하면 불꽃으로 타올라 세상 강한 마법사가 돼요. 망상에 빠져 살기
+            때문에 힘들어진 현실을 외면하고자 웨스트뷰를 만들어내기도 했답니다.
+          </p>
         </div>
         <script>
-            const moveHome = () =>{
-                location.href = "/index.html";
-            }
+          const moveHome = () => {
+            location.href = "/index.html";
+          };
         </script>
-        <button type="button" class="gohome mt-5 py-2 px-3" onclick="moveHome()">나도 알아보기</button>
-    </section>
-</body>
+        <button
+          type="button"
+          class="gohome mt-5 py-2 px-3"
+          onclick="moveHome()"
+        >
+          나도 알아보기
+        </button>
+      </section>
+    </div>
+  </body>
 </html>

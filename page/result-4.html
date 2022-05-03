@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="qorbaxk"/>
-    <meta name="keywords" content="어벤져스 mbti"/>
-    <meta name="description" content="내가 어벤져스라면?"/>
+    <meta name="author" content="qorbaxk" />
+    <meta name="keywords" content="어벤져스 mbti" />
+    <meta name="description" content="내가 어벤져스라면?" />
 
     <!--공유하기 -->
-    <meta property="og:url" content="https://avengers-heroes-test.netlify.app/" />
-    <meta property="og:title" content="내가 어벤져스라면?"/>
+    <meta
+      property="og:url"
+      content="https://avengers-heroes-test.netlify.app/"
+    />
+    <meta property="og:title" content="내가 어벤져스라면?" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="../img/main.gif"/>
-    <meta property="og:description" content="내가 어벤져스라면 어떤 캐릭터일까?"/>
+    <meta property="og:image" content="../img/main.gif" />
+    <meta
+      property="og:description"
+      content="내가 어벤져스라면 어떤 캐릭터일까?"
+    />
 
     <!--아이콘-->
-    <link rel="shortcut icon" href="../img/avengers.ico"/>
-    <link rel="apple-touch-icon-precomposed" href="../img/avengers.ico"/>
+    <link rel="shortcut icon" href="../img/avengers.ico" />
+    <link rel="apple-touch-icon-precomposed" href="../img/avengers.ico" />
 
     <title>내가 어벤져스라면?</title>
     <link
@@ -28,31 +34,47 @@
     />
     <link rel="stylesheet" href="../css/common.css" />
     <link rel="stylesheet" href="../css/default.css" />
-    <link rel="stylesheet" href="../css/result.css"/>
-</head>
-<body>
-    <section id="shareResult" class="mx-auto my-3 py-3 px-3">
+    <link rel="stylesheet" href="../css/result.css" />
+  </head>
+  <body>
+    <div class="container pb-3">
+      <section id="shareResult" class="mx-auto my-3 py-3 px-3">
         <h1 class="pt-3">당신의 캐릭터는?</h1>
         <div class="resultEx">
-            <p>나무보다 숲을 보는 정신적 지도자</p>
+          <p>나무보다 숲을 보는 정신적 지도자</p>
         </div>
         <div class="resultName">
-            <p>비전</p>
+          <p>비전</p>
         </div>
-        <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-          <img src="../img/image-4.png" alt="0" class="img-fluid">
+        <div
+          id="resultImg"
+          class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto"
+        >
+          <img src="../img/image-4.png" alt="0" class="img-fluid" />
         </div>
         <div class="resultDesc">
-            <p>
-                인내심이 많고 통찰력이 뛰어나 화합을 추구하는 당신! 비전에 해당하는 당신은 바라는 이상향을 꿈꾸는데 절대 게으름을 피우는 법이 없으며 타인에게 말없이 영향력을 끼치는 스타일이에요. 타인의 말을 잘 들어주고 공감능력이 뛰어나 완다의 아픔도 함께 나눌 수 있는 사이가 되었어요. 공익적이고 봉사하는 일을 만족하기 때문에 타노스가 마인드 스톤을 갖지 못하도록 자신을 희생하기도 했답니다.
-            </p>
+          <p>
+            인내심이 많고 통찰력이 뛰어나 화합을 추구하는 당신! 비전에 해당하는
+            당신은 바라는 이상향을 꿈꾸는데 절대 게으름을 피우는 법이 없으며
+            타인에게 말없이 영향력을 끼치는 스타일이에요. 타인의 말을 잘
+            들어주고 공감능력이 뛰어나 완다의 아픔도 함께 나눌 수 있는 사이가
+            되었어요. 공익적이고 봉사하는 일을 만족하기 때문에 타노스가 마인드
+            스톤을 갖지 못하도록 자신을 희생하기도 했답니다.
+          </p>
         </div>
         <script>
-            const moveHome = () =>{
-                location.href = "/index.html";
-            }
+          const moveHome = () => {
+            location.href = "/index.html";
+          };
         </script>
-        <button type="button" class="gohome mt-5 py-2 px-3" onclick="moveHome()">나도 알아보기</button>
-    </section>
-</body>
+        <button
+          type="button"
+          class="gohome mt-5 py-2 px-3"
+          onclick="moveHome()"
+        >
+          나도 알아보기
+        </button>
+      </section>
+    </div>
+  </body>
 </html>

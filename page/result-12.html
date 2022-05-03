@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="qorbaxk"/>
-    <meta name="keywords" content="어벤져스 mbti"/>
-    <meta name="description" content="내가 어벤져스라면?"/>
+    <meta name="author" content="qorbaxk" />
+    <meta name="keywords" content="어벤져스 mbti" />
+    <meta name="description" content="내가 어벤져스라면?" />
 
     <!--공유하기 -->
-    <meta property="og:url" content="https://avengers-heroes-test.netlify.app/" />
-    <meta property="og:title" content="내가 어벤져스라면?"/>
+    <meta
+      property="og:url"
+      content="https://avengers-heroes-test.netlify.app/"
+    />
+    <meta property="og:title" content="내가 어벤져스라면?" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="../img/main.gif"/>
-    <meta property="og:description" content="내가 어벤져스라면 어떤 캐릭터일까?"/>
+    <meta property="og:image" content="../img/main.gif" />
+    <meta
+      property="og:description"
+      content="내가 어벤져스라면 어떤 캐릭터일까?"
+    />
 
     <!--아이콘-->
-    <link rel="shortcut icon" href="../img/avengers.ico"/>
-    <link rel="apple-touch-icon-precomposed" href="../img/avengers.ico"/>
+    <link rel="shortcut icon" href="../img/avengers.ico" />
+    <link rel="apple-touch-icon-precomposed" href="../img/avengers.ico" />
 
     <title>내가 어벤져스라면?</title>
     <link
@@ -28,31 +34,49 @@
     />
     <link rel="stylesheet" href="../css/common.css" />
     <link rel="stylesheet" href="../css/default.css" />
-    <link rel="stylesheet" href="../css/result.css"/>
-</head>
-<body>
-    <section id="shareResult" class="mx-auto my-3 py-3 px-3">
+    <link rel="stylesheet" href="../css/result.css" />
+  </head>
+  <body>
+    <div class="container pb-3">
+      <section id="shareResult" class="mx-auto my-3 py-3 px-3">
         <h1 class="pt-3">당신의 캐릭터는?</h1>
         <div class="resultEx">
-            <p>용감한 반항가 기질의 만능 재주꾼</p>
+          <p>용감한 반항가 기질의 만능 재주꾼</p>
         </div>
         <div class="resultName">
-            <p>블랙위도우</p>
+          <p>블랙위도우</p>
         </div>
-        <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-          <img src="../img/image-12.png" alt="0" class="img-fluid">
+        <div
+          id="resultImg"
+          class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto"
+        >
+          <img src="../img/image-12.png" alt="0" class="img-fluid" />
         </div>
         <div class="resultDesc">
-            <p>
-                새로운 사람 만나는 것도 싫고 혼자있고 싶은 당신! 블랙위도우에 해당하는 당신은 무미건조하고 낯을 많이 가리지만 친해지면 장난을 잘 치는 스타일이에요. 남한테 관심이 없고 혼자가 편하지만 어벤져스는 나타샤에게 가족과 같은 깊은 애착관계를 갖게해요. 혈청도 수트도 초능력도 아닌 내 몸 그 자체를 훈련하여 새로운 기술을 터득해 나가는 능력이 있어요. 용감하고 저돌적이라 어릴때에도 동생 옐레나를 지키고자 자기주장을 펼쳤고 성인이 된 후에도 어벤져스 팀 내에서 가장 어른스러운 모습을 보여준답니다.
-            </p>
+          <p>
+            새로운 사람 만나는 것도 싫고 혼자있고 싶은 당신! 블랙위도우에
+            해당하는 당신은 무미건조하고 낯을 많이 가리지만 친해지면 장난을 잘
+            치는 스타일이에요. 남한테 관심이 없고 혼자가 편하지만 어벤져스는
+            나타샤에게 가족과 같은 깊은 애착관계를 갖게해요. 혈청도 수트도
+            초능력도 아닌 내 몸 그 자체를 훈련하여 새로운 기술을 터득해 나가는
+            능력이 있어요. 용감하고 저돌적이라 어릴때에도 동생 옐레나를 지키고자
+            자기주장을 펼쳤고 성인이 된 후에도 어벤져스 팀 내에서 가장
+            어른스러운 모습을 보여준답니다.
+          </p>
         </div>
         <script>
-            const moveHome = () =>{
-                location.href = "/index.html";
-            }
+          const moveHome = () => {
+            location.href = "/index.html";
+          };
         </script>
-        <button type="button" class="gohome mt-5 py-2 px-3" onclick="moveHome()">나도 알아보기</button>
-    </section>
-</body>
+        <button
+          type="button"
+          class="gohome mt-5 py-2 px-3"
+          onclick="moveHome()"
+        >
+          나도 알아보기
+        </button>
+      </section>
+    </div>
+  </body>
 </html>

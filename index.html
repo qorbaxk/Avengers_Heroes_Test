@@ -4,20 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="qorbaxk"/>
-    <meta name="keywords" content="어벤져스 mbti"/>
-    <meta name="description" content="내가 어벤져스라면?"/>
+    <meta name="author" content="qorbaxk" />
+    <meta name="keywords" content="어벤져스 mbti" />
+    <meta name="description" content="내가 어벤져스라면?" />
 
     <!--공유하기 -->
-    <meta property="og:url" content="https://avengers-heroes-test.netlify.app/" />
-    <meta property="og:title" content="내가 어벤져스라면?"/>
+    <meta
+      property="og:url"
+      content="https://avengers-heroes-test.netlify.app/"
+    />
+    <meta property="og:title" content="내가 어벤져스라면?" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="./img/main.gif"/>
-    <meta property="og:description" content="내가 어벤져스라면 어떤 캐릭터일까?"/>
+    <meta property="og:image" content="./img/main.gif" />
+    <meta
+      property="og:description"
+      content="내가 어벤져스라면 어떤 캐릭터일까?"
+    />
 
     <!--아이콘-->
-    <link rel="shortcut icon" href="./img/avengers.ico"/>
-    <link rel="apple-touch-icon-precomposed" href="./img/avengers.ico"/>
+    <link rel="shortcut icon" href="./img/avengers.ico" />
+    <link rel="apple-touch-icon-precomposed" href="./img/avengers.ico" />
 
     <title>내가 어벤져스라면?</title>
     <link
@@ -31,10 +37,10 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/qna.css" />
     <link rel="stylesheet" href="./css/animation.css" />
-    <link rel="stylesheet" href="./css/result.css"/>
+    <link rel="stylesheet" href="./css/result.css" />
     <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
     <script>
-      Kakao.init('96073e693e3f30cc8c6738a8c4aa463f');
+      Kakao.init("96073e693e3f30cc8c6738a8c4aa463f");
       console.log(Kakao.isInitialized());
       Kakao.isInitialized();
     </script>
@@ -50,7 +56,10 @@
           내가 어벤져스라면 어떤 캐릭터 일까요? <br />
           누구인지 알고 싶다면 시작버튼을 누르세요!
         </p>
-        <button type="button" class="btn btn-outline-light mt-3"onclick="begin()"
+        <button
+          type="button"
+          class="btn btn-outline-light mt-3"
+          onclick="begin()"
         >
           시작하기
         </button>
@@ -66,19 +75,16 @@
 
       <section id="result" class="mx-auto my-3 py-3 px-3">
         <h1 class="pt-3">당신의 캐릭터는?</h1>
-        <div class="resultEx">
-
-        </div>
-        <div class="resultName">
-
-        </div>
-        <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-          
-        </div>
-        <div class="resultDesc">
-
-        </div>
-        <button type="button" class="kakao mt-5 py-2 px-3" onclick="setShare()">공유하기</button>
+        <div class="resultEx"></div>
+        <div class="resultName"></div>
+        <div
+          id="resultImg"
+          class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto"
+        ></div>
+        <div class="resultDesc"></div>
+        <button type="button" class="kakao mt-5 py-2 px-3" onclick="setShare()">
+          공유하기
+        </button>
       </section>
       <script src="./js/data.js"></script>
       <script src="./js/start.js"></script>

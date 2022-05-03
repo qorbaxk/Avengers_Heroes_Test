@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="qorbaxk"/>
-    <meta name="keywords" content="어벤져스 mbti"/>
-    <meta name="description" content="내가 어벤져스라면?"/>
+    <meta name="author" content="qorbaxk" />
+    <meta name="keywords" content="어벤져스 mbti" />
+    <meta name="description" content="내가 어벤져스라면?" />
 
     <!--공유하기 -->
-    <meta property="og:url" content="https://avengers-heroes-test.netlify.app/" />
-    <meta property="og:title" content="내가 어벤져스라면?"/>
+    <meta
+      property="og:url"
+      content="https://avengers-heroes-test.netlify.app/"
+    />
+    <meta property="og:title" content="내가 어벤져스라면?" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="../img/main.gif"/>
-    <meta property="og:description" content="내가 어벤져스라면 어떤 캐릭터일까?"/>
+    <meta property="og:image" content="../img/main.gif" />
+    <meta
+      property="og:description"
+      content="내가 어벤져스라면 어떤 캐릭터일까?"
+    />
 
     <!--아이콘-->
-    <link rel="shortcut icon" href="../img/avengers.ico"/>
-    <link rel="apple-touch-icon-precomposed" href="../img/avengers.ico"/>
+    <link rel="shortcut icon" href="../img/avengers.ico" />
+    <link rel="apple-touch-icon-precomposed" href="../img/avengers.ico" />
 
     <title>내가 어벤져스라면?</title>
     <link
@@ -28,31 +34,48 @@
     />
     <link rel="stylesheet" href="../css/common.css" />
     <link rel="stylesheet" href="../css/default.css" />
-    <link rel="stylesheet" href="../css/result.css"/>
-</head>
-<body>
-    <section id="shareResult" class="mx-auto my-3 py-3 px-3">
+    <link rel="stylesheet" href="../css/result.css" />
+  </head>
+  <body>
+    <div class="container pb-3">
+      <section id="shareResult" class="mx-auto my-3 py-3 px-3">
         <h1 class="pt-3">당신의 캐릭터는?</h1>
         <div class="resultEx">
-            <p>규제와 질서를 중시하는 조직의 핵심 구성원</p>
+          <p>규제와 질서를 중시하는 조직의 핵심 구성원</p>
         </div>
         <div class="resultName">
-            <p>호크아이</p>
+          <p>호크아이</p>
         </div>
-        <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-          <img src="../img/image-8.png" alt="0" class="img-fluid">
+        <div
+          id="resultImg"
+          class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto"
+        >
+          <img src="../img/image-8.png" alt="0" class="img-fluid" />
         </div>
         <div class="resultDesc">
-            <p>
-                원리원칙적이고 헌신적으로 임무를 수행하는 당신! 호크아이에 해당하는 당신은 자신이 맡은 바 책임을 다하며 하는 일에 큰 자부심을 갖고 있는 스타일이에요. 쉴드에서 내려오는 임무를 정확하고 신중하게 처리해요. 소울스톤을 가져와야하는 임무를 다하기 위해 자신이 헌신하려 했으나 가장 애정하는 나타샤가 자신을 대신해 희생하였을때 평정심과 인내심을 잃고 많은 시간동안 좌절하기도 했어요. 남한테 관심 없고 혼자 일하는 것을 좋아하지만 의리는 있어 케이트를 끝까지 보호하기도 했답니다.
-            </p>
+          <p>
+            원리원칙적이고 헌신적으로 임무를 수행하는 당신! 호크아이에 해당하는
+            당신은 자신이 맡은 바 책임을 다하며 하는 일에 큰 자부심을 갖고 있는
+            스타일이에요. 쉴드에서 내려오는 임무를 정확하고 신중하게 처리해요.
+            소울스톤을 가져와야하는 임무를 다하기 위해 자신이 헌신하려 했으나
+            가장 애정하는 나타샤가 자신을 대신해 희생하였을때 평정심과 인내심을
+            잃고 많은 시간동안 좌절하기도 했어요. 남한테 관심 없고 혼자 일하는
+            것을 좋아하지만 의리는 있어 케이트를 끝까지 보호하기도 했답니다.
+          </p>
         </div>
         <script>
-            const moveHome = () =>{
-                location.href = "/index.html";
-            }
+          const moveHome = () => {
+            location.href = "/index.html";
+          };
         </script>
-        <button type="button" class="gohome mt-5 py-2 px-3" onclick="moveHome()">나도 알아보기</button>
-    </section>
-</body>
+        <button
+          type="button"
+          class="gohome mt-5 py-2 px-3"
+          onclick="moveHome()"
+        >
+          나도 알아보기
+        </button>
+      </section>
+    </div>
+  </body>
 </html>

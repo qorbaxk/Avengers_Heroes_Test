@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="qorbaxk"/>
-    <meta name="keywords" content="어벤져스 mbti"/>
-    <meta name="description" content="내가 어벤져스라면?"/>
+    <meta name="author" content="qorbaxk" />
+    <meta name="keywords" content="어벤져스 mbti" />
+    <meta name="description" content="내가 어벤져스라면?" />
 
     <!--공유하기 -->
-    <meta property="og:url" content="https://avengers-heroes-test.netlify.app/" />
-    <meta property="og:title" content="내가 어벤져스라면?"/>
+    <meta
+      property="og:url"
+      content="https://avengers-heroes-test.netlify.app/"
+    />
+    <meta property="og:title" content="내가 어벤져스라면?" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="../img/main.gif"/>
-    <meta property="og:description" content="내가 어벤져스라면 어떤 캐릭터일까?"/>
+    <meta property="og:image" content="../img/main.gif" />
+    <meta
+      property="og:description"
+      content="내가 어벤져스라면 어떤 캐릭터일까?"
+    />
 
     <!--아이콘-->
-    <link rel="shortcut icon" href="../img/avengers.ico"/>
-    <link rel="apple-touch-icon-precomposed" href="../img/avengers.ico"/>
+    <link rel="shortcut icon" href="../img/avengers.ico" />
+    <link rel="apple-touch-icon-precomposed" href="../img/avengers.ico" />
 
     <title>내가 어벤져스라면?</title>
     <link
@@ -28,31 +34,48 @@
     />
     <link rel="stylesheet" href="../css/common.css" />
     <link rel="stylesheet" href="../css/default.css" />
-    <link rel="stylesheet" href="../css/result.css"/>
-</head>
-<body>
-    <section id="shareResult" class="mx-auto my-3 py-3 px-3">
+    <link rel="stylesheet" href="../css/result.css" />
+  </head>
+  <body>
+    <div class="container pb-3">
+      <section id="shareResult" class="mx-auto my-3 py-3 px-3">
         <h1 class="pt-3">당신의 캐릭터는?</h1>
         <div class="resultEx">
-            <p>소탈하고 권위의식 없는 왕</p>
+          <p>소탈하고 권위의식 없는 왕</p>
         </div>
         <div class="resultName">
-            <p>블랙팬서</p>
+          <p>블랙팬서</p>
         </div>
-        <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-          <img src="../img/image-13.png" alt="0" class="img-fluid">
+        <div
+          id="resultImg"
+          class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto"
+        >
+          <img src="../img/image-13.png" alt="0" class="img-fluid" />
         </div>
         <div class="resultDesc">
-            <p>
-                분쟁을 싫어하며 조화롭게 지내고 싶은 당신! 블랙팬서에 해당하는 당신은 아버지의 죽음으로 순간 정신을 잃고 싸움을 하였지만 자신의 행동을 돌아보며 복수를 그만둘 줄 아는 스타일이에요. 자신 때문에 피해를 본 버키를 와칸다로 데려와서 치료를 받게 하는 등 말 없이 다정하고 온화하며 친절을 베풀어요. 까칠해보이지만 여린마음을 가지고 있고 퍼주기를 좋아하여 와칸다를 전투장소로 내어주기도 하고 온갖 무기들을 나눠주기도 한답니다.
-            </p>
+          <p>
+            분쟁을 싫어하며 조화롭게 지내고 싶은 당신! 블랙팬서에 해당하는
+            당신은 아버지의 죽음으로 순간 정신을 잃고 싸움을 하였지만 자신의
+            행동을 돌아보며 복수를 그만둘 줄 아는 스타일이에요. 자신 때문에
+            피해를 본 버키를 와칸다로 데려와서 치료를 받게 하는 등 말 없이
+            다정하고 온화하며 친절을 베풀어요. 까칠해보이지만 여린마음을 가지고
+            있고 퍼주기를 좋아하여 와칸다를 전투장소로 내어주기도 하고 온갖
+            무기들을 나눠주기도 한답니다.
+          </p>
         </div>
         <script>
-            const moveHome = () =>{
-                location.href = "/index.html";
-            }
+          const moveHome = () => {
+            location.href = "/index.html";
+          };
         </script>
-        <button type="button" class="gohome mt-5 py-2 px-3" onclick="moveHome()">나도 알아보기</button>
-    </section>
-</body>
+        <button
+          type="button"
+          class="gohome mt-5 py-2 px-3"
+          onclick="moveHome()"
+        >
+          나도 알아보기
+        </button>
+      </section>
+    </div>
+  </body>
 </html>
