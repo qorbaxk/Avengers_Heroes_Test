@@ -6,7 +6,7 @@ function setShare(){
   const shareTitle = '내가 어벤져스라면? 결과';
   const shareDesc = `${infoList[resultAlt].ex} ${infoList[resultAlt].name}`;
   const shareImage = `${url}img/image-${resultAlt}.png`;
-  const shareURL = `${url}page.result-${resultAlt}.html`;
+  const shareURL = `${url}page/result-${resultAlt}.html`;
   
   Kakao.Link.sendDefault({
     objectType: 'feed',
