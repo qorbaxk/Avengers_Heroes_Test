@@ -4,8 +4,9 @@ const result = document.querySelector("#result");
 const endPoint = 12;
 const select = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; //사용자가 선택한 답변 담을 배열
 
+
 //결과 계산 함수
-const calResult = () =>{
+function calResult(){
    
     //최댓값 반환
     let result = select.indexOf(Math.max(...select));
@@ -14,7 +15,7 @@ const calResult = () =>{
 }
 
 //결과값 함수
-const setResult = () =>{
+function setResult(){
     let point = calResult();
     const resultEx = document.querySelector('.resultEx');
     resultEx.innerHTML = infoList[point].ex;
@@ -32,6 +33,8 @@ const setResult = () =>{
 
     const resultDesc = document.querySelector('.resultDesc');
     resultDesc.innerHTML = infoList[point].desc;
+
+    
 }
 
 //결과지 보여주는 함수
@@ -46,6 +49,7 @@ const goResult = () =>{
             result.style.display = "block";
         },450)})
 
+        
         setResult();
         calResult();
         
