@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: 'YdestreetB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: 'DOSGothic';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
@@ -25,7 +30,8 @@
 h1{
     font-size: 30px;
     font-weight:300;
-    color:rgb(68, 8, 121)
+    color:rgb(68, 8, 121);
+    font-family: 'YdestreetB';
     
 }
 .resultEx{
@@ -74,25 +80,13 @@ h1{
     color: #421870;
 }
 
-.otherhero{
-    color: black;
-    background-color: #ACC7B4;
-    border: 0px;
-    font-size: 17px;
-    border-radius: 20px;
-}
-
-.otherhero:hover, .otherhero:focus{
-    background-color: rgba(214, 214, 214, 0.47);
-    color: #ACC7B4;
-}
-
 .gohome{
     color: white;
     background-color: #421870;
     border: 0px;
     font-size: 17px;
     border-radius: 20px;
+    font-family: 'DOSGothic';
 }
 
 .gohome:hover, .gohome:focus{
