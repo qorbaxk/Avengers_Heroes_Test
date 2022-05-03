@@ -1,0 +1,12 @@
+#main{
+    border: 3px solid rgba(214, 214, 214, 0.47);
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.btn{
+    border-radius: 20px;
+    font-size: 17px;
+}

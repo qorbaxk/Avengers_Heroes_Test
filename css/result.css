@@ -1,0 +1,34 @@
+#result{
+    display:none;
+    background-color: rgba(214, 214, 214, 0.47);
+    color:black;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.resultEx{
+    font-size: 20px;
+    
+}
+.resultName{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.resultDesc{
+    font-size: 17px;
+}
+
+.kakao{
+    color: black;
+    background-color: #FEE500;
+    border: 0px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.kakao:hover, .kakao:focus{
+    background-color: rgba(214, 214, 214, 0.47);
+    color: #FEE500;
+}
