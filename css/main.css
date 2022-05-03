@@ -5,8 +5,8 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'DOSGothic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -27,7 +27,7 @@
 .btn{
     border-radius: 10px;
     font-size: 17px;
-    font-family: 'DOSGothic';
+    font-family: 'LeeSeoyun';
 }
 
 h2{
@@ -35,5 +35,5 @@ h2{
     font-size: 40px;
 }
 p{
-    font-family: 'DOSGothic';
+    font-family: 'LeeSeoyun';
 }

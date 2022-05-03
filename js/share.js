@@ -3,7 +3,7 @@ const url = "https://avengers-heroes-test.netlify.app/";
 function setShare() {
   let resultImg = document.querySelector("#resultImg");
   let resultAlt = resultImg.firstElementChild.alt;
-  const shareTitle = "내가 어벤져스라면? 결과";
+  const shareTitle = "어벤져스 입단테스트 결과";
   const shareDesc = `${infoList[resultAlt].ex}, 나는 ${infoList[resultAlt].name}!`;
   const shareImage = `${url}img/image-${resultAlt}.png`;
   const shareURL = `${url}page/result-${resultAlt}.html`;

@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'DOSGothic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -18,7 +18,7 @@
     font-size: 20px;
     font-weight: bolder;
     width: 80%;
-    font-family: 'DOSGothic';
+    font-family: 'LeeSeoyun';
     
 }
 
@@ -28,7 +28,7 @@
     display: block;
     width: 80%;
     border: 0px;
-    font-family: 'DOSGothic';
+    font-family: 'LeeSeoyun';
 }
 
 .answerList:hover, .answerList:focus{

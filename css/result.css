@@ -5,8 +5,8 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'DOSGothic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -38,7 +38,7 @@ h1{
     font-size: 18px;
     padding-top:15px;
     font-weight: 300;
-    font-family: 'DOSGothic';
+    font-family: 'LeeSeoyun';
     
 }
 .resultName{
@@ -49,7 +49,7 @@ h1{
 }
 .resultDesc{
     font-size: 18px;
-    font-family: 'DOSGothic';
+    font-family: 'LeeSeoyun';
 }
 
 .kakao{
@@ -58,7 +58,7 @@ h1{
     border: 0px;
     font-size: 17px;
     border-radius: 20px;
-    font-family: 'DOSGothic';
+    font-family: 'LeeSeoyun';
 }
 
 .kakao:hover, .kakao:focus{
@@ -72,7 +72,7 @@ h1{
     border: 0px;
     font-size: 17px;
     border-radius: 20px;
-    font-family: 'DOSGothic';
+    font-family: 'LeeSeoyun';
 }
 
 .reset:hover, .reset:focus{
@@ -86,7 +86,7 @@ h1{
     border: 0px;
     font-size: 17px;
     border-radius: 20px;
-    font-family: 'DOSGothic';
+    font-family: 'LeeSeoyun';
 }
 
 .gohome:hover, .gohome:focus{
