@@ -40,3 +40,16 @@
     background-color: rgba(214, 214, 214, 0.47);
     color: #FEE500;
 }
+
+.gohome{
+    color: white;
+    background-color: #421870;
+    border: 0px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.gohome:hover, .gohome:focus{
+    background-color: rgba(214, 214, 214, 0.47);
+    color: #421870;
+}
