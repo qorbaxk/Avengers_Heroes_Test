@@ -45,6 +45,7 @@ const goResult = () => {
     }, 450);
   });
 
+  
   setResult();
   calResult();
 };
