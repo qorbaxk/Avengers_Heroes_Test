@@ -20,9 +20,9 @@ h1{
     color:rgb(68, 8, 121)
 }
 .resultEx{
-    font-size: 20px;
-    margin-top:10px;
-    font-weight: 400;
+    font-size: 18px;
+    padding-top:15px;
+    font-weight: 300;
     
 }
 .resultName{
@@ -31,7 +31,7 @@ h1{
     
 }
 .resultDesc{
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .kakao{
