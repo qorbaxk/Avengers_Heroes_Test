@@ -1,16 +1,39 @@
+@font-face {
+    font-family: 'YdestreetB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DOSGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'YdestreetB'
+}
 #main{
-    border: 3px solid rgba(214, 214, 214, 0.47);
+    
     width: 80%;
     text-align: center;
     border-radius: 20px;
 
 }
-
+.logo{
+    color: whitesmoke;
+}
 .btn{
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 17px;
+    font-family: 'DOSGothic';
 }
 
 h2{
     font-weight: 500;
+    font-size: 40px;
+}
+p{
+    font-family: 'DOSGothic';
 }

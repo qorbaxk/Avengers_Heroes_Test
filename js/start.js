@@ -1,8 +1,11 @@
 const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
+const other = document.querySelector("#other");
 const endPoint = 12;
 const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; //사용자가 선택한 답변 담을 배열
+
+
 
 //결과 계산 함수
 function calResult() {
@@ -110,6 +113,7 @@ const goNext = (qIdx) => {
 //시작버튼 누른 후 화면 보여주는 함수
 const begin = () => {
   //넘어갈때 페이드를 줘서 자연스럽게
+  
   main.style.WebkitAnimation = "fadeOut 1s";
   main.style.animation = "fadeOut 1s";
   setTimeout(() => {

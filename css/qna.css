@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'DOSGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #qna{
     display: none;
+    
 }
 
 .qBox{
@@ -10,6 +18,7 @@
     font-size: 20px;
     font-weight: bolder;
     width: 80%;
+    font-family: 'DOSGothic';
     
 }
 
@@ -19,6 +28,7 @@
     display: block;
     width: 80%;
     border: 0px;
+    font-family: 'DOSGothic';
 }
 
 .answerList:hover, .answerList:focus{
