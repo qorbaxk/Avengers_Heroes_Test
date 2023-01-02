@@ -34,19 +34,20 @@
       console.log(Kakao.isInitialized());
       Kakao.isInitialized();
     </script>
+    <script src="./js/data.js" defer></script>
+    <script src="./js/start.js" defer></script>
+    <script src="./js/share.js" defer></script>
   </head>
   <body>
     <div class="container">
       <!--메인 섹션-->
       <section id="main">
         <h1 class="main-title"><span>어벤져스</span><span>입단테스트</span></h1>
-
         <img
           src="./img/main.gif"
           alt="메인영역 어벤져스 이미지"
           class="main-image"
         />
-
         <p class="main-label">Avengers - !</p>
         <button type="button" class="main-btn" onclick="begin()">
           Assemble
@@ -63,44 +64,30 @@
       </section>
 
       <!--결과 섹션-->
-      <section id="result" class="mx-auto my-3 py-3 px-3">
-        <h1 class="pt-3">입단결과</h1>
-        <div class="resultEx"></div>
-        <div class="resultName"></div>
-        <div
-          id="resultImg"
-          class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto"
-        ></div>
-        <div class="resultDesc"></div>
-        <div class="row">
-          <div class="col">
-            <button
-              type="button"
-              class="kakao mt-5 py-2 px-3"
-              onclick="setShare()"
-            >
+      <section id="result">
+        <h2 class="sr-only">입단결과</h2>
+        <p class="resultEx"></p>
+        <h3 class="resultName result-title"></h3>
+        <div id="resultImg" class="result-image"></div>
+        <p class="resultDesc"></p>
+        <div class="result-button">
+          <div class="btns">
+            <button type="button" class="kakao" onclick="setShare()">
               공유하기
             </button>
           </div>
-          <div class="col">
+          <div class="btns">
             <script>
               const moveHome = () => {
                 location.href = "/index.html";
               };
             </script>
-            <button
-              type="button"
-              class="reset mt-5 py-2 px-3"
-              onclick="moveHome()"
-            >
+            <button type="button" class="reset" onclick="moveHome()">
               다시하기
             </button>
           </div>
         </div>
       </section>
-      <script src="./js/data.js"></script>
-      <script src="./js/start.js"></script>
-      <script src="./js/share.js"></script>
     </div>
   </body>
 </html>

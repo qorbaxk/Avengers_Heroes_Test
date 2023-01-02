@@ -26,7 +26,6 @@ const setResult = () => {
   let imgURL = `img/image-${point}.png`;
   resultImg.src = imgURL;
   resultImg.alt = point;
-  resultImg.classList.add("img-fluid");
   imgDiv.appendChild(resultImg);
 
   const resultDesc = document.querySelector(".resultDesc");

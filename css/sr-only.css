@@ -1,0 +1,8 @@
+/* 스크린 리더를 위한 스타일 */
+.sr-only, legend{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: polygon(0 0,0 0,0 0);
+}

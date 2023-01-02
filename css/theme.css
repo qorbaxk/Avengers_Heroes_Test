@@ -2,7 +2,9 @@
   --white-smoke: rgb(245, 245, 245);
   --black: #212121;
   --purple: #421870;
-  --light-purple: #8b60b9;
+  --light-purple: #b087dd;
+  --bright-purple:rgb(175, 146, 193);
+  --kakao-color:#fee500;
 
   --primary-color: var(--purple);
   --secondary-color: var(--light-purple);
