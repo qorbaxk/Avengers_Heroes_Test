@@ -1,0 +1,195 @@
+@import url(./common.css);
+@import url(./default.css);
+@import url(./theme.css);
+
+.container {
+  max-height: 100%;
+  height: 100vh;
+}
+/* 메인영역 */
+#main {
+  text-align: center;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+  padding: var(--spacing-base) 0;
+}
+.main-title {
+  font-family: "YdestreetB";
+  font-weight: 500;
+  font-size: var(--text-xxl);
+  display: flex;
+  flex-flow: column nowrap;
+}
+.main-image {
+  display: block;
+  margin: var(--spacing-base) auto;
+}
+.main-label {
+  font-size: var(--text-base);
+  font-family: "Avengers";
+
+  color: var(--secondary-color);
+}
+.main-btn {
+  border: 1px solid var(--white);
+  border-radius: var(--spacing-xs);
+  background-color: var(--primary-color);
+  color: var(--white);
+  width: fit-content;
+  margin: var(--spacing-base) auto;
+  padding: var(--spacing-base);
+  font-size: var(--text-xl);
+  font-family: "Avengers";
+  transition: all, 500ms;
+  cursor: pointer;
+}
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+/* @media (max-width:1024px) {
+  .main-image{
+    max-width: 40%;
+  }
+} */
+
+/* 질문 영역 */
+#qna {
+  display: none;
+}
+
+.qBox {
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 20px;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 80%;
+}
+
+.answerList {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: block;
+  width: 80%;
+  border: 0px;
+}
+
+.answerList:hover,
+.answerList:focus {
+  background-color: #421870;
+  color: whitesmoke;
+}
+
+.status {
+  height: 20px;
+  width: 80%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+.statusBar {
+  height: 100%;
+  border-radius: 20px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cdaeef+0,7810ef+100 */
+  background: #cdaeef; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #cdaeef 0%,
+    #7810ef 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #cdaeef 0%,
+    #7810ef 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #cdaeef 0%,
+    #7810ef 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdaeef', endColorstr='#7810ef',GradientType=0 ); /* IE6-9 */
+}
+
+/* 결과 영역 */
+#result {
+  display: none;
+  background-color: rgba(214, 214, 214, 0.47);
+  color: black;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#shareResult {
+  background-color: rgba(214, 214, 214, 0.47);
+  color: black;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.result-title {
+  font-size: 30px;
+  font-weight: 300;
+  color: rgb(68, 8, 121);
+  font-family: "YdestreetB";
+}
+.resultEx {
+  font-size: 18px;
+  padding-top: 15px;
+  font-weight: 300;
+}
+.resultName {
+  font-size: 35px;
+  font-weight: bold;
+}
+.resultDesc {
+  font-size: 18px;
+}
+
+.kakao {
+  color: black;
+  background-color: #fee500;
+  border: 0px;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+.kakao:hover,
+.kakao:focus {
+  background-color: rgba(214, 214, 214, 0.47);
+  color: #fee500;
+}
+
+.reset {
+  color: white;
+  background-color: #421870;
+  border: 0px;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+.reset:hover,
+.reset:focus {
+  background-color: rgba(214, 214, 214, 0.47);
+  color: #421870;
+}
+
+.gohome {
+  color: white;
+  background-color: #421870;
+  border: 0px;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+.gohome:hover,
+.gohome:focus {
+  background-color: rgba(214, 214, 214, 0.47);
+  color: #421870;
+}

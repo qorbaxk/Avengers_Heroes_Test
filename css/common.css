@@ -1,58 +1,273 @@
-﻿@charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Rubik+Bubbles&display=swap');
-
-
-html,body{
-	width:100%; 
-	height:100%;
+﻿html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
 }
-html{
-	/* ************************************************************
-		종류:overflow(가로,세로)/overflow-x(가로)/overflow-y(세로)
-		표현방식:auto/scroll/hidden 
-	    ************************************************************ */
-	overflow-y:scroll; /* 문서전체에 세로 스크롤바자국 항상 표시 */
-	overflow-x:hidden; /* 문서전체에 가로 스크롤바자국 항상 숨김 */
+body {
+  margin: 0;
 }
-
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section{ 
-	display:block; 
-	/*시맨틱태그를 지원하지 않은 브라우저 
-	-> 인식하지 못하는 태그를 인라인으로 인식하기때문에 강제로 블럭으로 설정함*/
+main {
+  display: block;
 }
-li{list-style:none;}   /*목록에 점 없애기 */
-a{text-decoration:none;}  /* 하이퍼링크 밑줄없앰 */
-
-body,input,textarea{
-
-	font-weight:100; /* IE8 이하버전 대응 */
-	font-family: 'Noto Sans KR', sans-serif;
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
 }
-img{
-	vertical-align:top;
-	font-size:0;
-	border:0; /* 이미지 링크시 기본적으로 나타나는 테두리 제거 */
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
 }
-table{border-collapse:collapse;} /* 칸사이의 기본 여백 제거 및 중첩 테두리 상쇄 효과 */
-input,select{vertical-align:middle;} /*세로정렬 가운데 */
-
-.clear:after{    /* 자식이 모두 float 을 사용할때 부모가 높이를 갖게하기 위함 */
-	content:"";
-	display:block;
-	clear:both;
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
-.indent{     /* 글자 안보이게 밀어놓기 */
-	display:block;
-	text-indent:-9999px;
+a {
+  background-color: transparent;
 }
-.hidden{display:none;}
-
-button:focus {
-	outline: none;
-  }
-
-
-
-
-
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none;
+}
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

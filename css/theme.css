@@ -1,0 +1,30 @@
+:root {
+  --white: #fff;
+  --black: #212121;
+  --purple: #421870;
+  --light-purple: #8b60b9;
+
+  --primary-color: var(--purple);
+  --secondary-color: var(--light-purple);
+
+  --spacing-xxs: 0.25rem; /* 4px */
+  --spacing-xs: 0.5rem; /* 8px */
+  --spacing-s: 0.625rem; /* 10px */
+  --spacing-sm: 0.75rem; /* 12px */
+  --spacing-base: 1rem; /* 16px */
+  --spacing-md: 1.25rem; /* 20px */
+  --spacing-lg: 1.5rem; /* 24px */
+  --spacing-xl: 2rem; /* 32px */
+  --spacing-uxl: 4rem; /* 64px */
+
+  --text-xs: 0.75rem; /* 12px */
+  --text-sm: 0.875rem; /* 14px */
+  --text-base: 1rem; /* 16px */
+  --text-md: 1.125rem; /* 18px */
+  --text-lg: 1.25rem; /* 20px */
+  --text-xl: 1.5rem; /* 24px */
+  --text-xxl: 2rem; /* 32px*/
+  --text-uxl: 2.5rem; /* 40px */
+
+  --container-width: 64rem; /* 1024px */
+}
