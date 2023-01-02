@@ -1,80 +1,52 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="author" content="qorbaxk" />
-      <meta name="keywords" content="어벤져스 입단테스트" />
-      <meta name="description" content="내가 어벤져스라면?" />
-  
-      <!--공유하기 -->
-      <meta
-        property="og:url"
-        content="https://avengers-heroes-test.netlify.app/"
-      />
-      <meta property="og:title" content="어벤져스 입단테스트" />
-      <meta property="og:type" content="website" />
-      <meta property="og:image" content="../img/main.gif" />
-      <meta
-        property="og:description"
-        content="내가 어벤져스라면 어떤 캐릭터일까?"
-      />
-  
-      <!--아이콘-->
-      <link rel="shortcut icon" href="../img/avengers.ico" />
-      <link rel="apple-touch-icon-precomposed" href="../img/avengers.ico" />
-  
-      <title>어벤져스 입단테스트</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../css/common.css" />
-    <link rel="stylesheet" href="../css/default.css" />
-    <link rel="stylesheet" href="../css/result.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="qorbaxk" />
+    <meta name="keywords" content="어벤져스 입단테스트" />
+    <meta name="description" content="내가 어벤져스라면?" />
+
+    <!--아이콘-->
+    <link rel="shortcut icon" href="../img/avengers.ico" />
+    <link rel="apple-touch-icon-precomposed" href="../img/avengers.ico" />
+
+    <title>어벤져스 입단테스트</title>
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <div class="container pb-3">
-      <section id="shareResult" class="mx-auto my-3 py-3 px-3">
-        <h1 class="pt-3">입단결과</h1>
+    <div class="container">
+      <section id="shareResult">
+        <h2 class="sr-only">입단결과</h2>
         <div class="resultEx">
           <p>천성적으로 타고난 카리스마 리더</p>
         </div>
-        <div class="resultName">
-          <p>타노스</p>
+        <h3 class="resultName result-title">타노스</h3>
+        <div id="resultImg" class="result-image">
+          <img src="../img/image-2.png" alt="2" />
         </div>
-        <div
-          id="resultImg"
-          class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto"
-        >
-          <img src="../img/image-2.png" alt="0" class="img-fluid" />
+        <p class="resultDesc">
+          넘치는 카리스마와 자신감으로 목표 실현을 위해 진두지휘하는 당신!
+          타노스에 해당하는 당신은 진취적인 생각과 결정력, 냉철한 판단력으로
+          세운 목표를 달성하기 위해 전 우주 인구의 절반도 날려버릴 수 있는
+          스타일이에요. 충분한 시간과 자원만 있으면 그 어떤 것도 실현 가능하다고
+          믿기에 온 우주를 돌아다니며 오랜시간동안 인피니티 스톤을 모으는 것을
+          꿈꿔왔어요. 보통의 사람이라면 포기하고 말 일도 대단한 의지력으로
+          꾸준히 밀어붙인답니다.
+        </p>
+        <div class="result-button">
+          <div class="btns">
+            <script>
+              const moveHome = () => {
+                location.href = "/index.html";
+              };
+            </script>
+            <button type="button" class="reset" onclick="moveHome()">
+              나도 알아보기
+            </button>
+          </div>
         </div>
-        <div class="resultDesc">
-          <p>
-            넘치는 카리스마와 자신감으로 목표 실현을 위해 진두지휘하는 당신!
-            타노스에 해당하는 당신은 진취적인 생각과 결정력, 냉철한 판단력으로
-            세운 목표를 달성하기 위해 전 우주 인구의 절반도 날려버릴 수 있는
-            스타일이에요. 충분한 시간과 자원만 있으면 그 어떤 것도 실현
-            가능하다고 믿기에 온 우주를 돌아다니며 오랜시간동안 인피니티 스톤을
-            모으는 것을 꿈꿔왔어요. 보통의 사람이라면 포기하고 말 일도 대단한
-            의지력으로 꾸준히 밀어붙인답니다.
-          </p>
-        </div>
-        <script>
-          const moveHome = () => {
-            location.href = "/index.html";
-          };
-        </script>
-        <button
-          type="button"
-          class="gohome mt-5 py-2 px-3"
-          onclick="moveHome()"
-        >
-          나도 알아보기
-        </button>
       </section>
     </div>
   </body>

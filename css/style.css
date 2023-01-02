@@ -148,8 +148,10 @@
 
 #shareResult {
   background-color: var(--bright-purple);
-  color: black;
+  color: var(--black);
   width: 80%;
+  margin: var(--spacing-sm) auto;
+  padding: var(--spacing-base);
   text-align: center;
   border-radius: 20px;
 }
