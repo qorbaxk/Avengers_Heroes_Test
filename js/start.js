@@ -5,17 +5,15 @@ const other = document.querySelector("#other");
 const endPoint = 12;
 const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; //사용자가 선택한 답변 담을 배열
 
-
-
 //결과 계산 함수
-function calResult() {
+const calResult = () => {
   //최댓값 반환
   let result = select.indexOf(Math.max(...select));
   return result;
-}
+};
 
 //결과값 함수
-function setResult() {
+const setResult = () => {
   let point = calResult();
   const resultEx = document.querySelector(".resultEx");
   resultEx.innerHTML = infoList[point].ex;
@@ -33,7 +31,7 @@ function setResult() {
 
   const resultDesc = document.querySelector(".resultDesc");
   resultDesc.innerHTML = infoList[point].desc;
-}
+};
 
 //결과지 보여주는 함수
 const goResult = () => {
@@ -48,7 +46,6 @@ const goResult = () => {
     }, 450);
   });
 
-  
   setResult();
   calResult();
 };
@@ -59,10 +56,6 @@ const addAnswer = (answerText, qIdx, idx) => {
   //선택지버튼을 여기서 추가해줌
   let answer = document.createElement("button");
   answer.classList.add("answerList");
-  answer.classList.add("my-3");
-  answer.classList.add("py-3");
-  answer.classList.add("px-3");
-  answer.classList.add("mx-auto");
   answer.classList.add("fadeIn");
   a.appendChild(answer);
   answer.innerHTML = answerText;
@@ -113,7 +106,7 @@ const goNext = (qIdx) => {
 //시작버튼 누른 후 화면 보여주는 함수
 const begin = () => {
   //넘어갈때 페이드를 줘서 자연스럽게
-  
+
   main.style.WebkitAnimation = "fadeOut 1s";
   main.style.animation = "fadeOut 1s";
   setTimeout(() => {

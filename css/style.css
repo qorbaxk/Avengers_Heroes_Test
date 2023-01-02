@@ -5,6 +5,7 @@
 .container {
   max-height: 100%;
   height: 100vh;
+  /* overflow-y: hidden; */
 }
 /* 메인영역 */
 #main {
@@ -33,10 +34,10 @@
   color: var(--secondary-color);
 }
 .main-btn {
-  border: 1px solid var(--white);
+  border: 1px solid var(--white-smoke);
   border-radius: var(--spacing-xs);
   background-color: var(--primary-color);
-  color: var(--white);
+  color: var(--white-smoke);
   width: fit-content;
   margin: var(--spacing-base) auto;
   padding: var(--spacing-base);
@@ -47,54 +48,70 @@
 }
 .main-btn:hover,
 .main-btn:focus {
-  background-color: var(--white);
+  background-color: var(--white-smoke);
   color: var(--primary-color);
 }
-/* @media (max-width:1024px) {
-  .main-image{
-    max-width: 40%;
-  }
-} */
 
 /* 질문 영역 */
 #qna {
   display: none;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: var(--spacing-xl) 0;
 }
 
 .qBox {
-  background-color: whitesmoke;
-  text-align: center;
-  border-radius: 20px;
-  color: black;
-  font-size: 20px;
-  font-weight: bolder;
+  display: block;
+  margin: var(--spacing-uxl) auto;
   width: 80%;
+  padding: var(--spacing-xl);
+  background-color: var(--white-smoke);
+  color: var(--black);
+  text-align: center;
+  border-radius: var(--spacing-md);
+  font-size: var(--text-xl);
+  font-weight: 700;
 }
-
+.answerBox {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-base);
+}
 .answerList {
-  background-color: whitesmoke;
+  width: 80%;
+  padding: var(--spacing-lg);
+  font-size: var(--text-lg);
+  background-color: var(--white-smoke);
   border-radius: 20px;
   display: block;
-  width: 80%;
   border: 0px;
+  transition: all, 300ms;
+  cursor: pointer;
 }
 
 .answerList:hover,
 .answerList:focus {
-  background-color: #421870;
-  color: whitesmoke;
+  background-color: var(--secondary-color);
+  color: var(--white-smoke);
 }
 
 .status {
-  height: 20px;
   width: 80%;
-  background-color: whitesmoke;
-  border-radius: 20px;
+  height: var(--spacing-md);
+  margin: auto;
+  background-color: var(--white-smoke);
+  border-radius: var(--spacing-md);
 }
 
 .statusBar {
   height: 100%;
-  border-radius: 20px;
+  border-radius: var(--spacing-md);
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cdaeef+0,7810ef+100 */
   background: #cdaeef; /* Old browsers */
   background: -moz-linear-gradient(
